@@ -1,0 +1,103 @@
+.navbar {
+  padding: 0.1rem 2.5%;
+}
+.nav-item {
+  padding: 0 10px;
+}
+#navbarSupportedContent {
+  font-family: "Ysabeau SC", sans-serif;
+}
+.pattern-bg {
+  background-image: url("background_main.avif");
+}
+.imageAboutPage {
+  width: 100%;
+}
+
+/* icon colors  */
+#icon-facebook {
+  fill: #3b5998;
+}
+#icon-insta {
+  fill: #e4405f;
+}
+#icon-linkedin {
+  fill: #0a66c2;
+}
+
+.lead {
+  font-family: "Merriweather", serif;
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 30px;
+}
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: hsl(217, 88.2%, 90%);
+  color: hsl(217, 88.8%, 35.1%);
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border: none;
+}
+
+
+#codingplatform{
+  background-color: hsla(183, 28%, 69%, 0.936)
+}
+
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
